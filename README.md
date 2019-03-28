@@ -1,7 +1,7 @@
 # ProcessingFractalViewer: A Fractal-Viewing Application for Processing
 
 
-##Installation
+## Installation
 There are two methods to use PFV:
 1. Download the JAR. This is the easiest way.
 2. Compile from source. This is harder, but you can then change the code any way you wish.
@@ -9,21 +9,21 @@ There are two methods to use PFV:
 Additionally, Processing only works with Java 8, so you might want to install a tool like [jenv](http://www.jenv.be/) to manage any other Java versions you might have.
 
 
-###From JAR
+### From JAR
 Just download ProcessingFractalViewer.jar and run with Java 8.
 
 
-###From source
+### From source
 ProcessingFractalViewer (PFV) needs the [Processing](https://github.com/processing) library in its classpath to compile, which means you're probably going to need to install Processing. However, PFV \*should\* only need `core.jar`, to run which is included here.
 
 
-##Usage
+## Usage
 The best way to figure out how these controls work is to skim this section, and then try them out and see what happens.
 If something doesn't work, check back here, and then consult the source.
 If you try that and something still isn't working, try fixing it yourself, or raise an issue through Github.
 
 
-###Mouse Controls
+### Mouse Controls
 When you open the app, you should be greeted by the standard picture of the Mandlebrot set (you can read more about it [here](https://en.wikipedia.org/wiki/Mandelbrot_set))
 Click somewhere, and then move the mouse.
 Ideally, you should see a rectangle appear and track your mouse (if it doesn't, don't worry, just try again).
@@ -31,7 +31,7 @@ If you click again, the window will jump to fill the rectangle you just defined.
 That's all you really need to know to start exploring.
 
 
-###Key Controls
+### Key Controls
 Below is a list of key controls. When a parameter can be adjusted in two directions, you use a key pair, like `d/f`.
 
 - `h`  The Home key. Takes you back to the default screen.
@@ -47,5 +47,5 @@ Below is a list of key controls. When a parameter can be adjusted in two directi
 - `p` Toggles the as-of-yet incomplete 'psychedelic mode'. 
 
 
-##License
+## License
 This software is released under the [GPLv3 license](http://www.gnu.org/copyleft/gpl.html). @2019 Jonathan Gould
